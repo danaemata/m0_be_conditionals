@@ -43,13 +43,12 @@ end
 
 num_quarters = 0
 
-if num_quarters == 0
-  puts "I don't have enough money for a gumball"
-elsif num_quarters == 1
-  puts "I don't have enough money for a gumball"
+if num_quarters >= 2
+  puts "I have enough money for a gumball."
 else
-puts "I have enough money for a gumball"
+  puts "I don't have enough money for a gumball."
 end
+
 
 
 
